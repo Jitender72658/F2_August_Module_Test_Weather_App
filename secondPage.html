@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Deatails Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1 id="weatherDataPageHeading">Welcome To The Weather App</h1>
+        <h3 id="weatherDataPageInfo">Here is your current location</p>
+    </div>
+    <div class="geographicLocationDiv">
+        <div class="latitudeDataDiv">
+            <p id="latitudeData">I am one</p>
+        </div>
+        <div class="logitudeDataDiv">
+            <p id="longitudeData">I am two</p>
+        </div>
+    </div> 
+    <div class="mapDiv">
+        <iframe id="locationMap"  frameborder="0"></iframe>
+    </div>  
+    <div class="weatherDataDiv">
+        <div class="dataHeadingDiv">
+            <h1 id="dataHeading">Your weather Data</h1>
+        </div>
+        <div class="dataBlocksDiv">
+            <p id="location">Location</p>
+            <p id="windSpeed">Wind</p>
+            <p id ="humidity">Hum</p>
+            <p id="timeZone">Time</p>
+            <p id="pressure">Pressure</p>
+            <p id="windDirection">Wind</p>
+            <p id="uvIndex">UV</p>
+            <p id="feelsLike">Temp</p>
+        </div>
+        
+    </div>
+    <div class="backButtonDiv">
+        <a id="backButton" href="./index.html">Back</a>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

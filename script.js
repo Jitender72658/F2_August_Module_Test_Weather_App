@@ -1,7 +1,7 @@
 
 const secondPageButton = document.getElementById("goToSecondPageBtn");
 function loadData(){
-    window.location.href = "./secondpage.html";
+    window.location.href = "./secondPage.html";
     displayData();
 }
 
